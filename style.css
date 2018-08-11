@@ -1,0 +1,124 @@
+body,html {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+div {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.day-weather{
+    height: 600px;
+    width: 800px;
+    background-image: url('images/bg-2.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.emphasize-weather-detail, .further-weather-detail {
+    background-color: rgba(255, 255, 255, 0.3);
+    /* height: 250px; */
+    width: 700px;
+    margin: 8px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
+}
+
+.emphasize-weather-detail{
+    height: 350px;
+}
+
+.further-weather-detail {
+    height: 200px;
+}
+
+.place {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px; 
+}
+
+.place h1 {
+    font-size: 2.5em;
+}
+
+.place h3 {
+    font-size: 1.5em;
+}
+
+.date-day-temp {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    padding: 0 10px;     
+}
+
+.today-details > * {
+    font-weight: 100;
+    margin: 0;
+    font-size: 1.3em;
+        
+}
+
+.current-temp {
+    font-size: 4em;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.current-temp > h1 {
+    margin: 0;
+}
+
+.current-weather-icon {
+    /* font-size: 8em; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#icon {
+    font-size: 8em;
+}
+
+#temp-title {
+    font-size: 2em;
+}
+
+.further-weather-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.week-days {
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.week-days i {
+    font-size: 1.3em;
+
+}
+
+.week-days p {
+    margin: 5px;
+    font-weight: 100;
+}
